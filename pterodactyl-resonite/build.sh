@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export IMAGE_NAME="local.voxelbone.cloud/neos-pri"
-#export IMAGE_NAME="ghcr.io/voxelbonecloud/pterodactyl-neos"
+export IMAGE_NAME="voxelbone.cloud/resonite-pri:latest"
+#export IMAGE_NAME="ghcr.io/voxelbonecloud/pterodactyl-resonite"
 
 docker buildx build --pull -t $IMAGE_NAME .
 
